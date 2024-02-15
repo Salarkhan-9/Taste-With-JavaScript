@@ -1,1 +1,1 @@
-console.log("Salar")
+console.log("Welcome to JavaScript")
