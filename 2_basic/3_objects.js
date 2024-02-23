@@ -29,3 +29,11 @@ console.log(JsUser.emial)
 console.log(JsUser.["email"])
 console.log(JsUser["Full Name"])
 console.log(JsUser.mySym)//this will give my key1 =but its datatype is string it dont acts as symbole
+
+
+JsUser.greeting=function(){
+    console.log ("hello to JS")
+
+}
+console.log(JsUser.greeting()
+)
