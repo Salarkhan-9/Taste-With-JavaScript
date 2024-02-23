@@ -22,11 +22,11 @@ const JsUser={
  lastloginDays:['monday', 'saturday']
 
 }
-Object.freeze(JsUser)//this will freese the object
+// Object.freeze(JsUser)//this will freese the object
 
 // console.log(JsUser."Full Name")
 console.log(JsUser.emial)
-console.log(JsUser.["email"])
+console.log(JsUser["email"])
 console.log(JsUser["Full Name"])
 console.log(JsUser.mySym)//this will give my key1 =but its datatype is string it dont acts as symbole
 
@@ -36,4 +36,11 @@ JsUser.greeting=function(){
 
 }
 console.log(JsUser.greeting()
+)
+//string interpolation 
+JsUser.greetingtwo=function(){
+    console.log (`hello Js USer ${this.name}`)
+
+}
+console.log(JsUser.greetingtwo()
 )
